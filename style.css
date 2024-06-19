@@ -30,25 +30,39 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
+.lista a:active
+{color: purple;
+}
+
 .body
 {
-    background-image: linear-gradient(#9698a5,#FFFFFF);
+    background-image: linear-gradient(#454a64,#FFFFFF);
     color: black;
        justify-content: center;
     padding: 24px 0;   
 }
-
 .rodapeimagem
-{width: 1435px;}
-
+{
+    width: 1435px;
+}
 .iconefacebook
-{width: 60px;
-    padding: 4px 8px;}
-
+{
+width: 60px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .iconeinstagram
-{width: 60px;
-    padding: 4px 8px;}
+{
+    width: 60px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .nomefacebook
 {padding: 24px 0;}
