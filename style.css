@@ -63,22 +63,40 @@ width: 60px;
     justify-content: space-around;
     align-items: center;
 }
-
 .nomefacebook
-{padding: 24px 0;}
-
+{
+    padding: 24px 0;
+}
 .nomeinstagram
-{padding: 24px 0;}
-
+{
+    padding: 24px 0;
+}
 .links
-{width: 35%;
-    text-align: center;
-    padding: 16px 0;}
+{
 
-.container_botao{
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--botao-azul);
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+}
+.container_botao
+{
+        background-color: var(--botao-azul);
+        border-radius: 5px;
+        padding: 1em;
+        color: var(--botao-principal);
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.botoes
+{
+        background-color: #7f8194;
+        color: #1b2043;
+        }
+.rodapetexto
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
